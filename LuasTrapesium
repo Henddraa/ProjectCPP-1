@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main14() {
+    float a, b, t, luas;
+    cout << "Masukkan dua sisi sejajar dan tinggi: ";
+    cin >> a >> b >> t;
+    luas = 0.5 * (a + b) * t;
+    cout << "Luas trapesium = " << luas << endl;
+    return 0;
+}

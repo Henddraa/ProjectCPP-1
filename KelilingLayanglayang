@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main11() {
+    float a, b, c, d, keliling;
+    cout << "Masukkan keempat sisi layang-layang: ";
+    cin >> a >> b >> c >> d;
+    keliling = a + b + c + d;
+    cout << "Keliling layang-layang = " << keliling << endl;
+    return 0;
+}

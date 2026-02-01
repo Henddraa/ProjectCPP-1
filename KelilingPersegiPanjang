@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int keliling;
+    int panjang;
+    int lebar;
+    
+    cout << "Masukan nilai panjang : ";
+    cin >> panjang;
+    
+    cout << "Masukan nilai lebar : ";
+    cin >> lebar;
+    
+    keliling = 2*(panjang+lebar);
+    cout << "Keliling persegi panjang anda : "<< keliling << endl;
+    return 0;
+}
